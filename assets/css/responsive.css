@@ -1,0 +1,71 @@
+@media (max-width: 600px) {
+    /* Header */
+    .nav-list {
+        display: none;
+    }
+
+    .header-banner {
+        display: block;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner-content h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .banner-content p {
+        text-align: center;
+    }
+
+    .banner-btn .main-btn,
+    .banner-btn .sub-btn {
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+
+    /* About Us */
+    .about-box {
+        display: block;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .about-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Partner */
+    .partner-box {
+        flex-wrap: wrap;
+    }
+
+    .partner-item {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    /* Tokenomic */
+    .tokenomic-box {
+        display: block;
+    }
+
+    .tokenomic-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
